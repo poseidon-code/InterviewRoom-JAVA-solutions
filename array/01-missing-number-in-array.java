@@ -1,5 +1,9 @@
+// PROBLEM: Missing number in array
+// https://leetcode.com/problems/missing-number/
+// https://practice.geeksforgeeks.org/problems/missing-number-in-array/0
+
 class Solution {
-    // SOLUTION :
+    // SOLUTION
     public int missing_number(int[] nums) {
         int result=nums.length;
         int i=0;
@@ -9,7 +13,7 @@ class Solution {
             i++;
         }
 
-	return result;
+	    return result;
     }
 
     public static void main (String[] args) {
