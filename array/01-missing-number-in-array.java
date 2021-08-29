@@ -12,8 +12,8 @@ class Solution {
             result ^= num^i;
             i++;
         }
-
-	    return result;
+        
+        return result;
     }
 
     public static void main (String[] args) {
