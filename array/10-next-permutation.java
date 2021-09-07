@@ -26,10 +26,10 @@ class Solution {
             nums[k]=nums[l];
             nums[l]=t;
 
-            for (int i=1; k+i<=nums.length-i; i++) {
+            for (int i=1; k+i<=n-i; i++) {
                 int z=nums[i+k];
-                nums[i+k]=nums[nums.length-i];
-                nums[nums.length-i]=z;
+                nums[i+k]=nums[n-i];
+                nums[n-i]=z;
             }
         }
     }
