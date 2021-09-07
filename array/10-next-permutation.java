@@ -26,7 +26,11 @@ class Solution {
             nums[k]=nums[l];
             nums[l]=t;
 
-            Collections.reverse(Arrays.asList(nums));
+            for (int i=1; k+i<=nums.length-i; i++) {
+                int z=nums[i+k];
+                nums[i+k]=nums[nums.length-i];
+                nums[nums.length-i]=z;
+            }
         }
     }
 
