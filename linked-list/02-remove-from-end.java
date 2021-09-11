@@ -52,8 +52,8 @@ class Solution {
     public Node remove_nth (Node head, int n) {
         Node slow = head, fast = head;
 
-        for (int i=1; i<=n+1; i++)
-        fast = fast.next;
+        for (int i=0; i<=n; i++)
+            fast = fast.next;
 
         while (fast != null) {
             slow = slow.next;
