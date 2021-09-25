@@ -1,8 +1,8 @@
-import java.util.Stack;
-
 // PROBLEM: Valid parenthesis
 // https://leetcode.com/problems/valid-parentheses/
 
+
+import java.util.Stack;
 
 class Solution {
     // SOLUTION
