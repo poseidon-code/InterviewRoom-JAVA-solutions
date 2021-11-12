@@ -1,10 +1,11 @@
+// PROBLEM: Find top k frequent elements
+// https://leetcode.com/problems/top-k-frequent-elements/
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-// PROBLEM: Find top k frequent elements
-// https://leetcode.com/problems/top-k-frequent-elements/
 
 class Solution {
     // SOLUTION
