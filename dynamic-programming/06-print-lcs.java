@@ -1,8 +1,9 @@
-import java.util.ArrayList;
-import java.util.Collections;
-
 // PROBLEM: Print longest common subsequence
 // https://www.hackerrank.com/challenges/dynamic-programming-classics-the-longest-common-subsequence/problem
+
+
+import java.util.ArrayList;
+import java.util.Collections;
 
 class Solution {
     // SOLUTION
