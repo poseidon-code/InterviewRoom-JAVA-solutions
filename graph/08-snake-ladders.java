@@ -2,7 +2,6 @@
 // https://leetcode.com/problems/snakes-and-ladders/
 // https://www.interviewbit.com/problems/snake-ladder-problem/
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -18,7 +17,6 @@ class Solution {
 
     public int snl (int[][] board) {
         int r = board.length;
-        // queue<int> q; q.push(1);
         Queue<Integer> q = new LinkedList<>(); q.add(1);
         int step = 0;
         
